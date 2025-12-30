@@ -3,6 +3,9 @@ import Header from '../components/common/Header'
 import { motion } from "motion/react";
 import StateCard from '../components/common/StateCard';
 import { BarChart2, ShoppingBag, Users, Zap } from 'lucide-react';
+import SalesOverviewChart from '../components/overview/SalesOverviewChart';
+import CategoryDistributionChart from '../components/overview/CategoryDistributionChart';
+import SalesChannelChart from '../components/overview/SalesChannelChart';
 
 
 const OverviewPage = () => {
@@ -42,6 +45,12 @@ const OverviewPage = () => {
             color="#10B981"
           />
         </motion.div>
+
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
+          <SalesOverviewChart />
+          <CategoryDistributionChart />
+          <SalesChannelChart />
+        </div>
       </main>
     </div>
   );
