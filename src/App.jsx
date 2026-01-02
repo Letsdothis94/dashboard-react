@@ -5,6 +5,7 @@ import OverviewPage from './pages/OverviewPage'
 import ProductsPage from './pages/ProductsPage'
 import UsersPage from './pages/UsersPage'
 import SalesPage from './pages/SalesPage'
+import OrdersPage from './pages/OrdersPage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/products" element={<ProductsPage />}></Route>
         <Route path="/users" element={<UsersPage />}></Route>
         <Route path="/sales" element={<SalesPage />}></Route>
+        <Route path="/orders" element={<OrdersPage />}></Route>
       </Routes>
     </div>
   );
