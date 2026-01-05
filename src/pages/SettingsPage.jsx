@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../components/common/Header'
 import Profile from '../components/settings/Profile'
 import Notifications from '../components/settings/Notifications'
+import Security from '../components/settings/Security'
 
 const SettingsPage = () => {
   return (
@@ -10,6 +11,7 @@ const SettingsPage = () => {
         <main>
             <Profile />
             <Notifications />
+            <Security />
         </main>
     </div>
   )

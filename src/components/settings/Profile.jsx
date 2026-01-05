@@ -5,7 +5,7 @@ import { User } from 'lucide-react'
 const Profile = () => {
   return (
     <SettingsSection icon={User} title={"Profile"}>
-        <div className='flex flex-col sm:flex-row items-center mb-6'>
+        <div className='flex flex-col flex-wrap sm:flex-row items-center mb-6 justify-evenly'>
             <img
                 src='https://randomuser.me/api/portraits/men/15.jpg'
                 alt='Profile'
