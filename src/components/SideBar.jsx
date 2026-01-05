@@ -7,7 +7,7 @@ const SIDEBAR_ITEMS = [
   {
     name: "Overview",
     icon: BarChart2,
-    color: "#6366f1",
+    color: "#6366F1",
     href: "/",
   },
   {
@@ -19,31 +19,31 @@ const SIDEBAR_ITEMS = [
   {
     name: "Users",
     icon: Users,
-    color: "#8B5CF6",
+    color: "#EC4899",
     href: "/users",
   },
   {
     name: "Sales",
     icon: DollarSign,
-    color: "#8B5CF6",
+    color: "#10B981",
     href: "/sales",
   },
   {
     name: "Orders",
     icon: ShoppingCart,
-    color: "#8B5CF6",
+    color: "#F59E0B",
     href: "/orders",
   },
   {
     name: "Analytics",
     icon: TrendingUp,
-    color: "#8B5CF6",
+    color: "#65C3C9",
     href: "/analytics",
   },
   {
     name: "Settings",
     icon: Settings,
-    color: "#8B5CF6",
+    color: "#A83236",
     href: "/settings",
   },
 ];
